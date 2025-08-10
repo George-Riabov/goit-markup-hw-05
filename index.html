@@ -462,7 +462,107 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe">
+          <p class="footer-social-paragraf">Subscribe</p>
+          <div class="sub-div">
+            <form>
+              <label for="email">
+                <input
+                  class="input-style"
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="E-mail"
+                />
+              </label>
+            </form>
+            <button type="button" class="subscrb-btn">
+              Subscribe
+              <svg class="subscr-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
       </div>
     </footer>
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button type="submit" class="close-modal-btn">
+          <svg class="modal-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-paragraf">
+          Leave your contacts and we will call you back
+        </p>
+        <form>
+          <div class="form-input-wrapper">
+            <label class="form-field-lable" for="name">Name</label>
+            <div class="form-field-input-wrapper">
+              <input
+                class="form-field-input"
+                name="field_name"
+                id="name"
+                type="text"
+              />
+              <svg class="modal-close-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-input-wrapper">
+            <label class="form-field-lable" for="tel-number">Phone</label>
+            <div class="form-field-input-wrapper">
+              <input
+                class="form-field-input"
+                name="field_tel_number"
+                id="tel-number"
+                type="tel"
+              />
+              <svg class="modal-close-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-input-wrapper">
+            <label class="form-field-lable" for="field-email">Email</label>
+            <div class="form-field-input-wrapper">
+              <input
+                class="form-field-input"
+                name="field_email"
+                id="field-email"
+                type="email"
+              />
+              <svg class="modal-close-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-input-wrapper">
+            <label class="form-field-lable" for="comment">Comment</label>
+            <textarea
+              class="form-field-input-textarea"
+              name=""
+              id="comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="chekbox-line">
+            <input class="visually-hidden" type="checkbox" id="privacy" />
+            <label class="form-field-lable" for="privacy">
+              <span class="custom-chekbox">
+                <svg class="chekbox-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-chek"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="privacy-link" href="./">Privacy Policy</a></label
+            >
+          </div>
+          <button class="submit-modal-btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
