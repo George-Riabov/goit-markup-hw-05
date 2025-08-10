@@ -505,9 +505,11 @@ footer .logo {
 .subscribe {
   margin-left: auto;
 }
-.sub-div {
+
+.footer-form {
   display: flex;
-  padding: 8px 24px;
+  gap: 24px;
+  margin-left: auto;
 }
 
 .input-style {
